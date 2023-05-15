@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY main.py ./
 
-CMD python main.py 
+CMD python main.py
+
+ENTRYPOINT
